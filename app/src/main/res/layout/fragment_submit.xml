@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SubmitFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="132dp"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/image" />
+
+            <TextView
+                android:layout_width="107dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="41dp"
+                android:autoSizeTextType="uniform"
+                android:text="@string/personal_details"
+                android:textColor="#21BF66" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="22.5dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Name"
+                android:background="@drawable/edit_text"
+                android:backgroundTint="#24213480"
+                android:drawableStart="@drawable/person"
+                android:gravity="center"
+                android:hint="@string/first_name_"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:padding="10dp"
+                android:paddingEnd="227dp"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Name"
+                android:background="@drawable/edit_text"
+                android:backgroundTint="#24213480"
+                android:drawableStart="@drawable/person"
+                android:gravity="center"
+                android:hint="@string/last_name"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:padding="10dp"
+                android:paddingEnd="227dp"
+                tools:ignore="RtlSymmetry" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Name"
+                android:background="@drawable/edit_text"
+                android:backgroundTint="#24213480"
+                android:drawableStart="@drawable/mailbox"
+                android:gravity="center"
+                android:hint="@string/email_address"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:padding="10dp"
+                android:paddingEnd="200dp"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Name"
+                android:background="@drawable/edit_text"
+                android:backgroundTint="#24213480"
+                android:drawableStart="@drawable/flag"
+                android:gravity="center"
+                android:hint="@string/enter_mobile_number"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:padding="10dp"
+                android:paddingEnd="150dp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="56dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="22dp"
+                android:text="@string/address"
+                android:textColor="#21BF66"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="Name"
+                android:background="@drawable/edit_text"
+                android:backgroundTint="#24213480"
+                android:drawableStart="@drawable/flag1"
+                android:gravity="center"
+                android:hint="@string/your_adderes"
+                android:importantForAutofill="no"
+                android:inputType="textCapCharacters"
+                android:padding="10dp"
+                android:paddingEnd="200dp"
+                android:textColor="#24213480"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/button"
+                android:text="@string/submit"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

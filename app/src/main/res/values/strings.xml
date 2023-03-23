@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Apptunix</string>
+    <string name="Splash_Image">splash_image</string>
+    <string name="apptunix">Apptunix</string>
+    <string name="less_talk">Less Talk,</string>
+    <string name="eat_more">Eat More</string>
+    <string name="delivery_solution_in_phone">Delivery Solution In Phone</string>
+    <string name="get_started">Get Started</string>
+    <string name="burger_pic">burger_pic</string>
+    <string name="skip">Skip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_user">WelCome User,</string>
+    <string name="please_enter_your_detail">Please Enter Your Detail</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">PassWord</string>
+    <string name="confirm_password">Confirm PassWord</string>
+    <string name="sign_up">Sign up</string>
+    <string name="continue_with_social_media">Continue with social media</string>
+    <string name="already_have_aaccount_login">Already have aaccount? Login</string>
+    <string name="welcome_user1">WelCome User</string>
+    <string name="google">google</string>
+    <string name="facebook">facebook</string>
+    <string name="apple">apple</string>
+    <string name="verify_otp">Verify Otp</string>
+    <string name="enter_4_digit_code_sent_on_your_phone">Enter 4 Digit Code Sent On Your Phone</string>
+    <string name="code_is_sent_to_09816238520">Code is sent to 09816238520</string>
+    <string name="_0">0</string>
+    <string name="_1">0</string>
+    <string name="_0_0_0">0</string>
+    <string name="_0_0_0_0">0</string>
+    <string name="didn_t_receive_code_request_again">Didn\'t receive code? Request again</string>
+
+    <string name="otp">Verify Otp</string>
+    <string name="code">Enter 4 Digit Code Sent On Your Phone</string>
+    <string name="sent_code">Code is sent to 09816238520</string>
+    <string name="send_again">Didn\'t receive code? Request again</string>
+    <string name="continue_">Continue</string>
+    <string name="One">0</string>
+    <string name="two">0</string>
+    <string name="three">0</string>
+    <string name="four">0</string>
+    <string name="welcome">Welcome</string>
+    <string name="image">image</string>
+    <string name="first_name">First Name</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="first_name_">First name</string>
+    <string name="address">Address</string>
+    <string name="last_name">Last name</string>
+    <string name="email_address">Email_Address</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="your_adderes">Your Adderes</string>
+    <string name="submit">Submit</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="enter_your_details_below">Enter Your Details Below</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password1">PassWord</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="recover_passward">Recover Passward</string>
+    <string name="login">LogIn</string>
+    <string name="continue_with_social_media1">Continue With Social Media</string>
+    <item name="button" type="id">submit_button</item>
+    <item name="submit" type="id">submit</item>
+</resources>

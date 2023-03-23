@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.apptunix.fragment.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_registraction_fragment"
+            app:destination="@id/registraction_fragment_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/registraction_fragment_2"
+        android:name="com.example.apptunix.fragment.RegistractionFragment"
+        android:label="fragment_registraction_2"
+        tools:layout="@layout/fragment_registraction" >
+        <action
+            android:id="@+id/action_registraction_fragment_2_to_otpfragment"
+            app:destination="@id/otpfragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/otpfragment"
+        android:name="com.example.apptunix.fragment.OtpFragment"
+        android:label="otpfragment"
+        tools:layout="@layout/otpfragment" >
+        <action
+            android:id="@+id/action_otpfragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.apptunix.fragment.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_submitFragment"
+            app:destination="@id/submitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/submitFragment"
+        android:name="com.example.apptunix.fragment.SubmitFragment"
+        android:label="fragment_submit"
+        tools:layout="@layout/fragment_submit" >
+        <action
+            android:id="@+id/action_submitFragment_to_welcomwBack"
+            app:destination="@id/welcomwBack" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomwBack"
+        android:name="com.example.apptunix.WelcomwBack"
+        android:label="fragment_welcomw_back"
+        tools:layout="@layout/fragment_welcomw_back" />
+</navigation>
