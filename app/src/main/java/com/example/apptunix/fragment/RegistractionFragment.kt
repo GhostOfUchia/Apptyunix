@@ -11,7 +11,7 @@ import com.example.apptunix.databinding.FragmentRegistractionBinding
 
 
 class RegistractionFragment : Fragment() {
-    private var _binding : FragmentRegistractionBinding? = null
+   private var _binding : FragmentRegistractionBinding? = null
     private val binding get()= _binding!!
 
     override fun onCreateView(

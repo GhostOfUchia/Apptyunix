@@ -59,6 +59,7 @@
     <string name="recover_passward">Recover Passward</string>
     <string name="login">LogIn</string>
     <string name="continue_with_social_media1">Continue With Social Media</string>
+    <string name="welcome1">Welcome</string>
     <item name="button" type="id">submit_button</item>
     <item name="submit" type="id">submit</item>
 </resources>

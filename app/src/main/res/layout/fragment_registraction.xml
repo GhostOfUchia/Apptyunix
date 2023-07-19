@@ -134,7 +134,7 @@
                     android:layout_weight="1"
                     android:contentDescription="@string/apple"
                     android:gravity="center"
-                    android:src="@drawable/apple_1" />
+                    android:src="@drawable/apple" />
 
             </LinearLayout>
 

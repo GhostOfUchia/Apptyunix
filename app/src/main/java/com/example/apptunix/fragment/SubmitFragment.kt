@@ -18,7 +18,7 @@ class SubmitFragment : Fragment() {
     ): View? {
         _binding = FragmentSubmitBinding.inflate(inflater, container, false)
         binding.submitButton.setOnClickListener {
-            findNavController().navigate(R.id.action_submitFragment_to_welcomwBack)
+            findNavController().navigate(R.id.action_submitFragment_to_welcomeBackFragment)
         }
         return binding.root
     }

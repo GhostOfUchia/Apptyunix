@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".WelcomwBack">
+    tools:context="fragment.WelcomeBackFragment">
 
 
     <TextView
@@ -18,7 +18,7 @@
         android:text="@string/welcome_back"
         android:textColor="#1F1F1F"
         android:textStyle="bold"
-         />
+        />
 
 
     <EditText
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="9dp"
             android:text="@string/remember_me"
-            android:textColor="#D6C4C4"
+            android:textColor="#787171"
             android:textStyle="bold"/>
 
         <TextView
@@ -89,7 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="49dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/button"
         android:text="@string/login"
@@ -99,12 +99,12 @@
         android:layout_width="192dp"
         android:layout_height="20dp"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:autoSizeTextType="uniform"
         android:text="@string/continue_with_social_media1"
         android:textColor="#1F1F1F"
         android:textStyle="bold"
-        tools:targetApi="o" />
+         />
 
     <LinearLayout
         android:layout_width="match_parent"

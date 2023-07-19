@@ -47,12 +47,11 @@
         android:label="fragment_submit"
         tools:layout="@layout/fragment_submit" >
         <action
-            android:id="@+id/action_submitFragment_to_welcomwBack"
-            app:destination="@id/welcomwBack" />
+            android:id="@+id/action_submitFragment_to_welcomeBackFragment"
+            app:destination="@id/welcomeBackFragment" />
     </fragment>
     <fragment
-        android:id="@+id/welcomwBack"
-        android:name="com.example.apptunix.WelcomwBack"
-        android:label="fragment_welcomw_back"
-        tools:layout="@layout/fragment_welcomw_back" />
+        android:id="@+id/welcomeBackFragment"
+        android:name="com.example.apptunix.fragment.WelcomeBackFragment"
+        android:label="WelcomeBackFragment" />
 </navigation>
